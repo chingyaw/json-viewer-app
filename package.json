@@ -1,0 +1,16 @@
+{
+  "name": "json-viewer-app",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "install:all": "npm -w server i && npm -w client i",
+    "dev": "concurrently \"npm -w server start\" \"npm -w client run dev\"",
+    "build": "npm -w client run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
