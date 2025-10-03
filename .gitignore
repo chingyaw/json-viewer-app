@@ -1,0 +1,18 @@
+# Node dependencies
+node_modules/
+
+# Environment variables
+*.env
+
+# NPM lock file
+package-lock.json
+
+# Build output (Vite, React)
+client/dist/
+client/.vite/
+*.log
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
